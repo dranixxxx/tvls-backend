@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/loigiais",
+      "handler": "loigiai.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/loigiais/count",
+      "handler": "loigiai.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/loigiais/:id",
+      "handler": "loigiai.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/loigiais",
+      "handler": "loigiai.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/loigiais/:id",
+      "handler": "loigiai.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/loigiais/:id",
+      "handler": "loigiai.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

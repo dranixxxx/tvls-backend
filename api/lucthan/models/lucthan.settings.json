@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lucthans",
+  "info": {
+    "name": "Lucthan"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/lucthans",
+      "handler": "lucthan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/lucthans/count",
+      "handler": "lucthan.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/lucthans/:id",
+      "handler": "lucthan.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/lucthans",
+      "handler": "lucthan.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/lucthans/:id",
+      "handler": "lucthan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/lucthans/:id",
+      "handler": "lucthan.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

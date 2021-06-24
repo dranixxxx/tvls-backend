@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "loigiais",
+  "info": {
+    "name": "loigiai",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    },
+    "cungs": {
+      "collection": "cung"
+    },
+    "name": {
+      "type": "string"
+    },
+    "saos": {
+      "collection": "sao"
+    },
+    "lucthans": {
+      "collection": "lucthan"
+    }
+  }
+}

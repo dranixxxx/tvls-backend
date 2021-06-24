@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "saos",
+  "info": {
+    "name": "Sao",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "csssao": {
+      "type": "enumeration",
+      "enum": [
+        "hanhKim",
+        "hanhMoc",
+        "hanhThuy",
+        "hanhHoa",
+        "hanhTho",
+        "labeltuan",
+        "labeltriet"
+      ]
+    },
+    "saoloai": {
+      "type": "enumeration",
+      "enum": [
+        "chinhtinh",
+        "saotot",
+        "cattinh",
+        "quytinh",
+        "phuctinh",
+        "saoxau",
+        "sattinh",
+        "baitinh",
+        "amtinh",
+        "truongsinh",
+        "tuantriet"
+      ]
+    }
+  }
+}

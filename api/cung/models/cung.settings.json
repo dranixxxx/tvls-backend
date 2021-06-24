@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cungs",
+  "info": {
+    "name": "Cung",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "saos": {
+      "collection": "sao"
+    }
+  }
+}
